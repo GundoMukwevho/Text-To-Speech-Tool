@@ -1,0 +1,71 @@
+Step 1. Open terminal in your project folder
+
+CMD:
+cd "C:\Users\gundo\Desktop\Text To Speech Application"
+
+
+-----------------------------------------------------------------------------------------------------
+
+Step 2 — Stage changes
+
+CMD:
+git add .
+
+
+Or stage specific files:
+
+
+git add tts_app.py requirements.txt
+
+
+-------------------------------------------------------------------------------------------------------
+
+Step 3 — Commit changes
+
+CMD:
+git commit -m "Your descriptive message here"
+
+
+> Example:
+
+
+git commit -m "Polish Streamlit layout and button colors"
+
+
+----------------------------------------------------------------------------------------------------------
+
+Step 4 — Push to GitHub
+
+CMD
+git push origin main
+
+
+> Notes:
+
+* `origin` is the remote repo name (default).
+* `main` is the branch name (default main branch).
+
+-----------------------------------------------------------------------------------------------------------
+
+Step 5 — Optional: Pull updates before pushing
+
+If you ever make changes on GitHub or another computer:
+
+CMD
+git pull origin main
+
+
+* Pulls latest changes before you push yours.
+* Prevents conflicts.
+
+------------------------------------------------------------------------------------------------------------
+
+### **Quick summary**
+
+1. `git status` → see changes
+2. `git add .` → stage everything
+3. `git commit -m "Message"` → commit changes
+4. `git push origin main` → push to GitHub
+5. `git pull origin main` → pull updates (optional)
+
+
